@@ -1,0 +1,49 @@
+package com.example.projeto2
+
+import android.os.Bundle
+import android.util.Log
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.SearchView
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+class Buscador : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_buscador)
+
+        val searchViewWidget: androidx.appcompat.widget.SearchView =
+            findViewById(R.id.search_view_no_layout)
+
+        searchViewWidget.queryHint = "Buscar livros..."
+        searchViewWidget.isIconified = false
+
+        searchViewWidget.setOnQueryTextListener(object :
+            androidx.appcompat.widget.SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                if (query != null && query.isNotEmpty()) {
+                    Log.d("BuscadorActivity", "Layout SearchView - Busca submetida: $query")
+                }
+                searchViewWidget.clearFocus()
+                return true
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+                if (newText != null) {
+                    Log.d("BuscadorActivity", "Layout SearchView - Texto mudou: $newText")
+                }
+                return true
+            }
+        })
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
+    }
+
+}
