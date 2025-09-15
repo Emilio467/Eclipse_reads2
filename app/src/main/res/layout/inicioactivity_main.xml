@@ -5,313 +5,136 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9A34B8"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="347dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/white"
-        android:text="Entrar como convidado"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
-
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="138dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:text="Cadastro"
-        android:textColorLink="#FFFDFD"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.316"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-    ]]>
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="347dp"
-        android:layout_height="43dp"
-        android:background="#2417CC"
-        android:backgroundTint="#191D5B<Button
-        android:id="
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="483dp" />
-
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="175dp"
-        android:layout_marginEnd="178dp"
-        android:layout_marginBottom="48dp"
-        android:text="Bem vindo"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView43"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="102dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="100dp"
-        android:text="Entre na sua conta para continuar"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+    android:background="#10114B"
+    tools:context=".MainActivity" >
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="138dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginBottom="40dp"
-        android:background="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        android:layout_width="212dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="90dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="138dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="265dp"
-        android:text="Login"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="138dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:text="Cadastro"
-        android:textColorLink="#FFFDFD"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.316"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="116dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="88dp"
-        android:text="Ou continue com "
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="347dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="32dp"
-        android:text="Google"
-
-        android:textColor="#050505"
-        app:backgroundTint="#FFFFFF"
-        app:icon="@drawable/google"
-        app:layout_constraintEnd_toEndOf="parent"
-
-        app:layout_constraintHorizontal_bias="0.492"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView44" />
-    android:textColor="#000000"
-    app:iconTint="@null"
-    />
-        app:icon="@drawable/google"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView44" />
-    <?xml version="1.0" encoding="utf-8"?>
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#9A34B8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:context=".MainActivity">
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="347dp"
-            android:layout_height="43dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/white"
-            android:text="Entrar como convidado"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button5" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="347dp"
-            android:layout_height="43dp"
-            android:layout_marginTop="20dp"
-            android:text="Facebook"
-            android:textColor="#FFFFFF"
-            app:backgroundTint="#1877F2"
-            app:icon="@drawable/facebook_icon"
-            app:iconTint="#FFFFFF"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button4" />
-
-        <TextView
-            android:id="@+id/textView42"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="175dp"
-            android:layout_marginEnd="178dp"
-            android:layout_marginBottom="48dp"
-            android:text="Bem vindo"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toTopOf="@+id/textView43"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.472"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView43"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="102dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="100dp"
-            android:text="Entre na sua conta para continuar"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.51"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView42" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="138dp"
-            android:layout_height="137dp"
-            android:layout_marginStart="136dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="137dp"
-            android:layout_marginBottom="40dp"
-            android:background="#000000"
-            app:layout_constraintBottom_toTopOf="@+id/textView42"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/logo" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="138dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="56dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="265dp"
-            android:text="Login"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="138dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:text="Cadastro"
-            android:textColorLink="#FFFDFD"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.316"
-            app:layout_constraintStart_toEndOf="@+id/button"
-            app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-        <TextView
-            android:id="@+id/textView44"
-            android:layout_width="116dp"
-            android:layout_height="25dp"
-            android:layout_marginTop="88dp"
-            android:text="Ou continue com "
-            android:textColor="#FFFFFF"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="347dp"
-            android:layout_height="43dp"
-            android:layout_marginTop="32dp"
-            android:text="Google"
-            android:textColor="#050505"
-            app:backgroundTint="#FFFFFF"
-            app:icon="@drawable/google"
-            app:iconTint="@null"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.492"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView44" />
-
-        <TextView
-            android:id="@+id/textView45"
-            android:layout_width="390dp"
-            android:layout_height="42dp"
-            android:layout_marginTop="64dp"
-            android:text="Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade"
-            android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.476"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button9"
-            app:layout_constraintVertical_bias="0.0" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-    <TextView
-        android:id="@+id/textView45"
-        android:layout_width="390dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="64dp"
-        android:text="Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade"
-        android:textColor="#FFFFFF"
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="345dp"
+        android:layout_height="606dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="53dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="261dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="41dp"
+                android:backgroundTint="#1F070707">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop=""
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00FFFFFF"
+                        android:text="Entrar"
+
+                        android:textColor="#7803FD" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#10070707"
+                        android:text="Registrar"
+                        android:textColor="#7803FD" />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress5"
+                android:layout_width="299dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:background="#29121212"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="Email"
+                android:textColor="#6B101010" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress5"
+                android:layout_width="299dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#29121212"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="Senha"
+                android:textColor="#6B101010" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:text="CheckBox" />
+
+                <Button
+                    android:id="@+id/button37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+
+                    android:background="#00FFFFFF"
+                    android:text="Esqueci a senha"
+                    android:textColor="#7803FD" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:text="Entrar" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="80dp"
+                android:text="Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade." />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

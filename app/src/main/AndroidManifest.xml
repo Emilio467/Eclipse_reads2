@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projeto2">
         <activity
+            android:name=".Configuracoes"
+            android:exported="false" />
+        <activity
             android:name=".Minhabiblio"
             android:exported="false" />
         <activity

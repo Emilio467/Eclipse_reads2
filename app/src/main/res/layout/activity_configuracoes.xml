@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6A3D89"
+    tools:context=".Configuracoes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"
+                android:text="Configurações & Temas"
+                android:textAlignment="textStart"
+                android:textColor="#FFFEFE"
+                android:textSize="24sp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="363dp"
+                android:layout_height="271dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop=""
+                android:layout_marginBottom="20dp"
+                android:padding="20dp"
+                android:backgroundTint="#34FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+
+                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_12___s__09_02_09_10b76ef3" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingTop="7dp"
+                            android:text="Tema da Interface "
+                            android:textColor="#FFFDFD"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="317dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:backgroundTint="#736A3D89">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="53dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_height="56dp"
+
+                                app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_12___s__09_02_07_b6cacdc8" />
+
+                            <LinearLayout
+                                android:layout_width="153dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView15"
+                                    android:layout_width="155dp"
+                                    android:layout_height="36dp"
+                                    android:paddingTop="10dp"
+                                    android:text="Claro"
+                                    android:textColor="#FDFBFB"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView16"
+                                    android:layout_width="155dp"
+                                    android:layout_height="33dp"
+                                    android:text="Tema padrão com cores claras"
+                                    android:textColor="#FDFCFC"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/button32"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:layout_weight="1"
+                                android:text="Ativo" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="317dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:backgroundTint="#736A3D89">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="53dp"
+                                android:layout_height="56dp"
+                                android:layout_marginTop="8dp"
+
+                                app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_12___s__09_02_07_396473f4" />
+
+                            <LinearLayout
+                                android:layout_width="153dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView15"
+                                    android:layout_width="155dp"
+                                    android:layout_height="36dp"
+                                    android:paddingTop="10dp"
+                                    android:text="Escuro"
+                                    android:textColor="#FDFBFB"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView16"
+                                    android:layout_width="155dp"
+                                    android:layout_height="33dp"
+                                    android:text="Tema padrão com cores escuras"
+                                    android:textColor="#FDFCFC"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/button32"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:layout_weight="1"
+                                android:text="Ativo" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="363dp"
+                android:layout_height="271dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop=""
+                android:layout_marginBottom="20dp"
+                android:padding="20dp"
+                android:backgroundTint="#34FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+
+                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_12___s__09_02_09_10b76ef3" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingTop="7dp"
+                            android:text="Tema da Interface "
+                            android:textColor="#FFFDFD"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="216dp"
+                            android:layout_height="220dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView44"
+                                android:layout_width="match_parent"
+                                android:layout_height="33dp"
+                                android:layout_marginTop="10dp"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:text="Sons da Interface"
+                                android:textColor="#FAF8F8"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/textView45"
+                                android:layout_width="match_parent"
+                                android:layout_height="32dp"
+                                android:paddingLeft="10dp"
+                                android:text="Reproduzir sons ao navegar  "
+                                android:textColor="#FDFBFB"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/textView62"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:text="Notificações"
+                                android:textColor="#F6F2F2"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/textView63"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:text="Receber lembretes de leitura"
+                                android:textColor="#FDFCFC"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Switch
+                                android:id="@+id/switch3"
+                                android:layout_width="121dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="25dp"
+                                android:textOff="Desativado"
+                                android:textOn="ativo" />
+
+                            <Switch
+                                android:id="@+id/switch2"
+                                android:layout_width="121dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:textOff="Desativado"
+                                android:textOn="Ativo" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView
+
+                >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="363dp"
+                android:layout_height="320dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop=""
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#34FFFFFF"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="59dp"
+                            android:layout_height="wrap_content"
+
+                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_12___s__09_02_08_08ec2d61" />
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingTop="15dp"
+                            android:text="Dispositivos e Dados "
+                            android:textColor="#F8F8F8"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/button35"
+                        android:layout_width="319dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:backgroundTint="#1DFFFFFF"
+                        android:text="Exportar dados" />
+
+                    <Button
+                        android:id="@+id/button34"
+                        android:layout_width="319dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:backgroundTint="#1DFFFFFF"
+                        android:text="Limpar dados" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="319dp"
+                        android:layout_height="140dp"
+                        android:layout_marginLeft="20dp"
+                        android:backgroundTint="#736A3D89">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="37dp"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView15"
+                                    android:layout_width="54dp"
+                                    android:layout_height="wrap_content"
+
+                                    app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_13___s__09_49_07_8f848969" />
+
+                                <TextView
+                                    android:id="@+id/textView66"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:paddingTop="7dp"
+                                    android:text="Sincronização Automática "
+                                    android:textColor="#FAF6F6" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView67"
+                                android:layout_width="match_parent"
+                                android:layout_height="42dp"
+                                android:paddingLeft="10dp"
+                                android:text="Seus dados são sincronizados automaticamente entre dispositivos"
+                                android:textColor="#FAF8F8"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="363dp"
+                android:layout_height="271dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop=""
+                android:layout_marginBottom="20dp"
+                android:padding="20dp"
+                android:backgroundTint="#34FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="7dp"
+                            android:text="Tema da Interface "
+                            android:textColor="#FFFDFD"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="216dp"
+                            android:layout_height="220dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView44"
+                                android:layout_width="match_parent"
+                                android:layout_height="33dp"
+                                android:layout_marginTop="10dp"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:text="Tipo da Conta"
+                                android:textColor="#FAF8F8"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/textView45"
+                                android:layout_width="match_parent"
+                                android:layout_height="32dp"
+                                android:layout_marginTop="20dp"
+                                android:paddingLeft="10dp"
+                                android:text="Livros na Biblioteca"
+                                android:textColor="#FDFBFB"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/textView62"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:paddingLeft="10dp"
+                                android:text="Tema Atual"
+                                android:textColor="#F6F2F2"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/button39"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="#1BFFFFFF"
+                                android:text="Convidado" />
+
+                            <TextView
+                                android:id="@+id/textView68"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:paddingRight="10dp"
+                                android:text="0"
+                                android:textAlignment="textEnd"
+                                android:textColor="#FBFBFB" />
+
+                            <TextView
+                                android:id="@+id/textView69"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:paddingRight="10dp"
+                                android:text="Escuro"
+                                android:textAlignment="textEnd"
+                                android:textColor="#FBFBFB" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView
+
+                >
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="412dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="779dp"
+        android:background="#FE512A6A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_45_27_e7f985b2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_31_672a4582" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_48_44_23c6453a" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_47_07_8813f53b" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_09_5baa6c36" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>

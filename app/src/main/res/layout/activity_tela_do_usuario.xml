@@ -9,6 +9,7 @@
     tools:context=".Tela_do_Usuario">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="409dp"
         android:layout_height="889dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,224 +57,275 @@
                 android:id="@+id/button24"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#504E4E"
                 android:layout_marginLeft="145dp"
+                android:backgroundTint="#504E4E"
                 android:text="Convidado" />
 
             <Button
                 android:id="@+id/button26"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#15FFFFFF"
                 android:layout_marginLeft="145dp"
                 android:layout_marginTop="20dp"
+                android:backgroundTint="#15FFFFFF"
                 android:text="Editar perfil" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
-                <LinearLayout
+                <com.google.android.material.card.MaterialCardView
                     android:layout_width="180dp"
                     android:layout_height="200dp"
-                    android:background="#2CFFFFFF"
                     android:layout_marginLeft="10dp"
-                    android:orientation="vertical">
+                    android:backgroundTint="#2CFFFFFF">
 
-                    <ImageView
-                        android:id="@+id/imageView18"
-                        android:layout_width="match_parent"
-                        android:layout_height="84dp"
-                        android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_98c853bd" />
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#2CFFFFFF"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView56"
-                        android:layout_width="match_parent"
-                        android:layout_height="51dp"
-                        android:text="0"
-                        android:textAlignment="center"
-                        android:textColor="#FDFDFD"
-                        android:textSize="34sp" />
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="84dp"
+                            android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_98c853bd" />
 
-                    <TextView
-                        android:id="@+id/textView57"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="Curtidas"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="24sp" />
-                </LinearLayout>
-                <LinearLayout
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:text="0"
+                            android:textAlignment="center"
+                            android:textColor="#FDFDFD"
+                            android:textSize="34sp" />
+
+                        <TextView
+                            android:id="@+id/textView57"
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:text="Curtidas"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
                     android:layout_width="180dp"
                     android:layout_height="200dp"
-                    android:background="#2CFFFFFF"
                     android:layout_marginLeft="25dp"
-                    android:orientation="vertical">
+                    android:backgroundTint="#2CFFFFFF">
 
-                    <ImageView
-                        android:id="@+id/imageView26"
-                        android:layout_width="match_parent"
-                        android:layout_height="84dp"
-                        android:src="@drawable/symbole_du_livre_violet" />
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#2CFFFFFF"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView56"
-                        android:layout_width="match_parent"
-                        android:layout_height="51dp"
-                        android:text="0"
-                        android:textAlignment="center"
-                        android:textColor="#FDFDFD"
-                        android:textSize="34sp" />
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="84dp"
+                            android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_d8f8c720" />
 
-                    <TextView
-                        android:id="@+id/textView57"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="Curtidas"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="24sp" />
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:text="0"
+                            android:textAlignment="center"
+                            android:textColor="#FDFDFD"
+                            android:textSize="34sp" />
 
-                    <TextView
-                        android:id="@+id/textView56"
-                        android:layout_width="match_parent"
-                        android:layout_height="51dp"
-                        android:text="0"
-                        android:textAlignment="center"
-                        android:textColor="#FDFDFD"
-                        android:textSize="34sp" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/textView57"
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:text="Capítulos Lidos"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
-                <LinearLayout
+                <com.google.android.material.card.MaterialCardView
                     android:layout_width="180dp"
                     android:layout_height="200dp"
-                    android:background="#2CFFFFFF"
                     android:layout_marginLeft="10dp"
-                    android:orientation="vertical">
+                    android:backgroundTint="#2CFFFFFF">
 
-                    <ImageView
-                        android:id="@+id/imageView18"
-                        android:layout_width="match_parent"
-                        android:layout_height="84dp"
-                        android:src="@drawable/livro_de_capa_preta_fechado" />
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#2CFFFFFF"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView56"
-                        android:layout_width="match_parent"
-                        android:layout_height="51dp"
-                        android:text="0"
-                        android:textAlignment="center"
-                        android:textColor="#FDFDFD"
-                        android:textSize="34sp" />
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="84dp"
+                            android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_d8f8c720" />
 
-                    <TextView
-                        android:id="@+id/textView57"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="Curtidas"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="24sp" />
-                </LinearLayout>
-                <LinearLayout
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:text="0"
+                            android:textAlignment="center"
+                            android:textColor="#FDFDFD"
+                            android:textSize="34sp" />
+
+                        <TextView
+                            android:id="@+id/textView57"
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:text="Vou Ler"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
                     android:layout_width="180dp"
                     android:layout_height="200dp"
-                    android:background="#2CFFFFFF"
                     android:layout_marginLeft="25dp"
-                    android:orientation="vertical">
+                    android:backgroundTint="#2CFFFFFF">
 
-                    <ImageView
-                        android:id="@+id/imageView26"
-                        android:layout_width="match_parent"
-                        android:layout_height="84dp"
-                        android:src="@drawable/design_de_vetor_de_logotipo_de_icone_de_relogio_de_parede_810420_565" />
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#2CFFFFFF"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView57"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="Curtidas"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="24sp" />
-                </LinearLayout>
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="84dp"
+                            android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_ac789f1f" />
+
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:text="0"
+                            android:textAlignment="center"
+                            android:textColor="#FDFDFD"
+                            android:textSize="34sp" />
+
+                        <TextView
+                            android:id="@+id/textView57"
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:text="Lendo"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
-                <LinearLayout
+                <com.google.android.material.card.MaterialCardView
                     android:layout_width="180dp"
                     android:layout_height="200dp"
-                    android:background="#2CFFFFFF"
                     android:layout_marginLeft="10dp"
-                    android:orientation="vertical">
+                    android:backgroundTint="#2CFFFFFF">
 
-                    <ImageView
-                        android:id="@+id/imageView18"
-                        android:layout_width="match_parent"
-                        android:layout_height="84dp"
-                        android:src="@drawable/aprovar" />
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#2CFFFFFF"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView56"
-                        android:layout_width="match_parent"
-                        android:layout_height="51dp"
-                        android:text="0"
-                        android:textAlignment="center"
-                        android:textColor="#FDFDFD"
-                        android:textSize="34sp" />
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="84dp"
+                            android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_89e0da49" />
 
-                    <TextView
-                        android:id="@+id/textView57"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="Curtidas"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="24sp" />
-                </LinearLayout>
-                <LinearLayout
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:text="0"
+                            android:textAlignment="center"
+                            android:textColor="#FDFDFD"
+                            android:textSize="34sp" />
+
+                        <TextView
+                            android:id="@+id/textView57"
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:text="Lidos"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
                     android:layout_width="180dp"
                     android:layout_height="200dp"
-                    android:background="#2CFFFFFF"
                     android:layout_marginLeft="25dp"
-                    android:orientation="vertical">
+                    android:backgroundTint="#2CFFFFFF">
 
-                    <ImageView
-                        android:id="@+id/imageView26"
-                        android:layout_width="match_parent"
-                        android:layout_height="84dp"
-                        android:src="@drawable/recusado" />
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#2CFFFFFF"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView56"
-                        android:layout_width="match_parent"
-                        android:layout_height="51dp"
-                        android:text="0"
-                        android:textAlignment="center"
-                        android:textColor="#FDFDFD"
-                        android:textSize="34sp" />
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="84dp"
+                            android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_1f8bda64" />
 
-                    <TextView
-                        android:id="@+id/textView57"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="Curtidas"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="24sp" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:text="0"
+                            android:textAlignment="center"
+                            android:textColor="#FDFDFD"
+                            android:textSize="34sp" />
+
+                        <TextView
+                            android:id="@+id/textView57"
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:text="Dropados"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
             </LinearLayout>
 
             <LinearLayout
@@ -287,7 +339,7 @@
                     android:layout_width="76dp"
                     android:layout_height="60dp"
 
-                    android:src="@drawable/relogio" />
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_ac789f1f" />
 
                 <TextView
                     android:id="@+id/textView58"
@@ -301,39 +353,48 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="360dp"
-                android:layout_marginLeft="23dp"
-                android:layout_height="300dp"
-                android:background="#29FFFEFE"
-                android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView28"
-                    android:layout_width="match_parent"
-                    android:layout_height="89dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/symbole_du_livre_violet" />
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="354dp"
+                android:layout_height="301dp"
+                android:layout_marginLeft="25dp"
+                android:backgroundTint="#00FFFFFF">
 
-                <TextView
-                    android:id="@+id/textView59"
-                    android:layout_width="match_parent"
-                    android:layout_height="44dp"
-                    android:text="Biblioteca vazia"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF"
-                    android:textSize="24sp" />
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="300dp"
+                    android:background="#29FFFEFE"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView60"
-                    android:layout_width="match_parent"
-                    android:layout_height="83dp"
-                    android:text="Comece explorando e adicionando livros à sua biblioteca"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF"
-                    android:textSize="20sp" />
+                    <ImageView
+                        android:id="@+id/imageView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_d8f8c720" />
 
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:text="Biblioteca vazia"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="match_parent"
+                        android:layout_height="83dp"
+                        android:text="Comece explorando e adicionando livros à sua biblioteca"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
 
             <Button
                 android:id="@+id/button29"
@@ -345,5 +406,88 @@
                 android:text="Sair da conta" />
         </LinearLayout>
     </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="412dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="779dp"
+        android:background="#FE512A6A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_45_27_e7f985b2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_31_672a4582" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_48_44_23c6453a" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_47_07_8813f53b" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_09_5baa6c36" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
