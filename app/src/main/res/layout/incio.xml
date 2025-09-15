@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#6A3D89"
-    tools:context=".Bilioteca_inicio">
+    tools:context=".Inicio">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -323,6 +323,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/Inicio"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -336,6 +337,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/Buscar"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -349,6 +351,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/Biblioteca"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -362,6 +365,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/Configurações"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -375,6 +379,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/Perfil"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical">

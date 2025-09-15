@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projeto2">
         <activity
+            android:name=".Perfil"
+            android:exported="false" />
+        <activity
             android:name=".Configuracoes"
             android:exported="false" />
         <activity
@@ -41,7 +44,7 @@
             android:name=".Info_livro"
             android:exported="false" />
         <activity
-            android:name=".Bilioteca_inicio"
+            android:name=".Inicio"
             android:exported="false" />
         <activity
             android:name=".biblioteca_inicio"
