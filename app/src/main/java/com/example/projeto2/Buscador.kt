@@ -1,5 +1,6 @@
 package com.example.projeto2
 
+
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
@@ -7,6 +8,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+
+
+import android.content.Intent
+import android.widget.ImageView
 
 class Buscador : AppCompatActivity() {
 
@@ -44,31 +49,31 @@ class Buscador : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val btnInicio = findViewById<Button>(R.id.nav_inicio0_button)
+        val btnInicio = findViewById<ImageView>(R.id.inicio0)
         btnInicio.setOnClickListener {
             val intent = Intent(this, Inicio::class.java)
             startActivity(intent)
         }
 
-        val btnBuscar = findViewById<Button>(R.id.nav_Buscar0_button)
+        val btnBuscar = findViewById<ImageView>(R.id.buscar0)
         btnBuscar.setOnClickListener {
             val intent = Intent(this, Buscador::class.java)
             startActivity(intent)
         }
 
-        val btnBiblioteca = findViewById<Button>(R.id.nav_Biblioteca0_button)
+        val btnBiblioteca = findViewById<ImageView>(R.id.Biblioteca0)
         btnBiblioteca.setOnClickListener {
             val intent = Intent(this, Minhabiblio::class.java)
             startActivity(intent)
         }
 
-        val btnConfig = findViewById<Button>(R.id.nav_Configurações0_button)
+        val btnConfig = findViewById<ImageView>(R.id.Configurações0)
         btnConfig.setOnClickListener {
             val intent = Intent(this, Configuracoes::class.java)
             startActivity(intent)
         }
 
-        val btnPerfil = findViewById<Button>(R.id.nav_Perfil0_button)
+        val btnPerfil = findViewById<ImageView>(R.id.Perfil0)
         btnPerfil.setOnClickListener {
             val intent = Intent(this, Perfil::class.java)
             startActivity(intent)

@@ -167,7 +167,6 @@
                     android:layout_width="167dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop=""
                     android:text="Mais lidos da semana"
                     android:textColor="#FFFEFE"
                     android:textSize="16sp" />
@@ -185,15 +184,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/margin"
                 android:layout_width="match_parent"
                 android:layout_height="302dp"
                 android:orientation="horizontal">
 
                 <HorizontalScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="284dp"
-                    android:layout_marginTop="20dp
-">
+                    android:layout_height="302dp">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -220,8 +218,8 @@
 
                         <TextView
                             android:id="@+id/textView40"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_width="106dp"
+                            android:layout_height="0dp"
                             android:text="Autor"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF" />
@@ -234,7 +232,9 @@
                             android:text="Toque para ver"
                             android:textSize="10sp" />
                     </LinearLayout>
+
                 </HorizontalScrollView>
+
             </LinearLayout>
 
             <LinearLayout
@@ -277,7 +277,6 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_height="284dp"
                     android:layout_marginTop="20dp"
@@ -309,7 +308,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/inicio"
+                    android:id="@+id/inicio0"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_45_27_e7f985b2" />
@@ -335,7 +334,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/buscar0"
+                    android:id="@+id/buscar110"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_48_44_23c6453a" />
@@ -348,7 +347,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/buscar0"
+                    android:id="@+id/buscar1110"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_47_07_8813f53b" />
@@ -361,7 +360,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/buscar0"
+                    android:id="@+id/buscar11110"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_09_5baa6c36" />

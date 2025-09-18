@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -27,7 +30,7 @@
                 android:layout_height="58dp"
                 android:layout_marginTop="20dp"
                 android:paddingLeft="20dp"
-                android:text="Configurações & Temas"
+                android:text="Configurações e Temas"
                 android:textAlignment="textStart"
                 android:textColor="#FFFEFE"
                 android:textSize="24sp" />
@@ -36,7 +39,6 @@
                 android:layout_width="363dp"
                 android:layout_height="271dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop=""
                 android:layout_marginBottom="20dp"
                 android:padding="20dp"
                 android:backgroundTint="#34FFFFFF">
@@ -53,7 +55,7 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView7"
+                            android:id="@+id/imagem0"
                             android:layout_width="50dp"
                             android:layout_height="wrap_content"
 
@@ -83,7 +85,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/imageView8"
+                                android:id="@+id/imagem1"
                                 android:layout_width="53dp"
                                 android:layout_marginTop="8dp"
                                 android:layout_height="56dp"
@@ -96,7 +98,7 @@
                                 android:orientation="vertical">
 
                                 <TextView
-                                    android:id="@+id/textView15"
+                                    android:id="@+id/textView2"
                                     android:layout_width="155dp"
                                     android:layout_height="36dp"
                                     android:paddingTop="10dp"
@@ -105,7 +107,7 @@
                                     android:textSize="16sp" />
 
                                 <TextView
-                                    android:id="@+id/textView16"
+                                    android:id="@+id/textView10"
                                     android:layout_width="155dp"
                                     android:layout_height="33dp"
                                     android:text="Tema padrão com cores claras"
@@ -114,7 +116,7 @@
                             </LinearLayout>
 
                             <Button
-                                android:id="@+id/button32"
+                                android:id="@+id/button30"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="15dp"
@@ -136,7 +138,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/imageView8"
+                                android:id="@+id/imagem2"
                                 android:layout_width="53dp"
                                 android:layout_height="56dp"
                                 android:layout_marginTop="8dp"
@@ -158,7 +160,7 @@
                                     android:textSize="16sp" />
 
                                 <TextView
-                                    android:id="@+id/textView16"
+                                    android:id="@+id/textView1"
                                     android:layout_width="155dp"
                                     android:layout_height="33dp"
                                     android:text="Tema padrão com cores escuras"
@@ -183,7 +185,6 @@
                 android:layout_width="363dp"
                 android:layout_height="271dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop=""
                 android:layout_marginBottom="20dp"
                 android:padding="20dp"
                 android:backgroundTint="#34FFFFFF">
@@ -200,14 +201,14 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView7"
+                            android:id="@+id/imagem3"
                             android:layout_width="50dp"
                             android:layout_height="wrap_content"
 
                             app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_12___s__09_02_09_10b76ef3" />
 
                         <TextView
-                            android:id="@+id/textView14"
+                            android:id="@+id/textView16"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -228,7 +229,7 @@
                             android:orientation="vertical">
 
                             <TextView
-                                android:id="@+id/textView44"
+                                android:id="@+id/textView45"
                                 android:layout_width="match_parent"
                                 android:layout_height="33dp"
                                 android:layout_marginTop="10dp"
@@ -239,7 +240,7 @@
                                 android:textSize="16sp" />
 
                             <TextView
-                                android:id="@+id/textView45"
+                                android:id="@+id/textView91"
                                 android:layout_width="match_parent"
                                 android:layout_height="32dp"
                                 android:paddingLeft="10dp"
@@ -248,7 +249,7 @@
                                 android:textSize="14sp" />
 
                             <TextView
-                                android:id="@+id/textView62"
+                                android:id="@+id/textView69"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:paddingLeft="10dp"
@@ -301,7 +302,7 @@
                 android:layout_width="363dp"
                 android:layout_height="320dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop=""
+
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="#34FFFFFF"
                 android:padding="20dp">
@@ -325,7 +326,7 @@
                             app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_12___s__09_02_08_08ec2d61" />
 
                         <TextView
-                            android:id="@+id/textView65"
+                            android:id="@+id/textView64"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -370,7 +371,7 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:id="@+id/imageView15"
+                                    android:id="@+id/imageView44"
                                     android:layout_width="54dp"
                                     android:layout_height="wrap_content"
 
@@ -407,7 +408,7 @@
                 android:layout_width="363dp"
                 android:layout_height="271dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop=""
+
                 android:layout_marginBottom="20dp"
                 android:padding="20dp"
                 android:backgroundTint="#34FFFFFF">
@@ -424,7 +425,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textView14"
+                            android:id="@+id/textView17"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -457,7 +458,7 @@
                                 android:textSize="16sp" />
 
                             <TextView
-                                android:id="@+id/textView45"
+                                android:id="@+id/textView92"
                                 android:layout_width="match_parent"
                                 android:layout_height="32dp"
                                 android:layout_marginTop="20dp"
@@ -501,7 +502,7 @@
                                 android:textColor="#FBFBFB" />
 
                             <TextView
-                                android:id="@+id/textView69"
+                                android:id="@+id/textView999"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="30dp"
@@ -556,7 +557,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/buscar0"
+                    android:id="@+id/buscar100"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_31_672a4582" />
@@ -569,7 +570,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/buscar0"
+                    android:id="@+id/buscar101"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_48_44_23c6453a" />
@@ -582,7 +583,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/buscar0"
+                    android:id="@+id/buscar102"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_47_07_8813f53b" />
