@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#10114B"
-    tools:context=".MainActivity" >
+    tools:context=".log0regis" >
 
     <ImageView
         android:id="@+id/imageView3"
@@ -78,7 +78,7 @@
                 android:background="#29121212"
                 android:ems="10"
                 android:inputType="textEmailAddress"
-                android:text="Email"
+                android:text="Email:"
                 android:textColor="#6B101010" />
 
             <EditText
@@ -90,7 +90,7 @@
                 android:background="#29121212"
                 android:ems="10"
                 android:inputType="textEmailAddress"
-                android:text="Senha"
+                android:text="Senha:"
                 android:textColor="#6B101010" />
 
             <LinearLayout

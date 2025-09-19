@@ -8,12 +8,8 @@
     tools:context=".Minhabiblio">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="889dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="#6A3D89"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +19,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -61,9 +57,8 @@
 
             <ImageView
                 android:id="@+id/imageView14"
-                android:layout_width="95dp"
+                android:layout_width="match_parent"
                 android:layout_height="111dp"
-                android:layout_marginLeft="150dp"
                 android:layout_marginTop="50dp"
                 app:srcCompat="@drawable/captura_de_tela_2025_09_09_132931" />
 
@@ -86,94 +81,102 @@
 
             <Button
                 android:id="@+id/button6"
-                android:layout_width="153dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="125dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="146dp"
                 android:text="Explorar livros" />
         </LinearLayout>
     </ScrollView>
 
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="412dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="779dp"
-        android:background="#FE512A6A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="409dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="800dp"
+        android:padding="20dp"
+        app:cardBackgroundColor="#6A3D89"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent">>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/inicio"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_45_27_e7f985b2" />
-
-            </LinearLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="412dp"
+            android:layout_height="110dp"
+            android:background="#00FFFFFF">
 
             <LinearLayout
-                android:layout_width="80dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:background="#03FFFFFF"
+                android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/buscar0"
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="80dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_31_672a4582" />
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Buscar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_45_27_e7f985b2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/buscar0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_31_672a4582" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/buscar00"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_48_44_23c6453a" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/buscar000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_47_07_8813f53b" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/buscar0000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_09_5baa6c36" />
+
+                </LinearLayout>
 
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/buscar00"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_48_44_23c6453a" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/buscar000"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_47_07_8813f53b" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/buscar0000"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_14___s__23_46_09_5baa6c36" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

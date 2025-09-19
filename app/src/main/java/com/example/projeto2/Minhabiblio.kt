@@ -19,7 +19,7 @@ class Minhabiblio : AppCompatActivity() {
             insets
         }
 
-        val btnInicio = findViewById<ImageView>(R.id.inicio0)
+        val btnInicio = findViewById<ImageView>(R.id.Buscar)
         btnInicio.setOnClickListener {
             val intent = Intent(this, Inicio::class.java)
             startActivity(intent)
@@ -31,19 +31,19 @@ class Minhabiblio : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btnBiblioteca = findViewById<ImageView>(R.id.Biblioteca0)
+        val btnBiblioteca = findViewById<ImageView>(R.id.buscar00)
         btnBiblioteca.setOnClickListener {
             val intent = Intent(this, Minhabiblio::class.java)
             startActivity(intent)
         }
 
-        val btnConfig = findViewById<ImageView>(R.id.Configurações0)
+        val btnConfig = findViewById<ImageView>(R.id.buscar000)
         btnConfig.setOnClickListener {
             val intent = Intent(this, Configuracoes::class.java)
             startActivity(intent)
         }
 
-        val btnPerfil = findViewById<ImageView>(R.id.Perfil0)
+        val btnPerfil = findViewById<ImageView>(R.id.buscar0000)
         btnPerfil.setOnClickListener {
             val intent = Intent(this, Perfil::class.java)
             startActivity(intent)
