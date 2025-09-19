@@ -52,7 +52,7 @@ class Inicio : AppCompatActivity() {
                 startActivity(intent)
             }
 
-            val btninicial = findViewById<MaterialCardView>(R.id.cardViewinfo)
+            val btninicial = findViewById<ImageView>(R.id.imageView50)
             btninicial.setOnClickListener {
                 val intent = Intent(this, Info_livro::class.java)
                 startActivity(intent)
@@ -60,6 +60,12 @@ class Inicio : AppCompatActivity() {
 
             val btninicial2 = findViewById<ImageView>(R.id.imageView5)
             btninicial2.setOnClickListener {
+                val intent = Intent(this, Info_livro::class.java)
+                startActivity(intent)
+            }
+
+            val btninicial3 = findViewById<ImageView>(R.id.imageView500)
+            btninicial3.setOnClickListener {
                 val intent = Intent(this, Info_livro::class.java)
                 startActivity(intent)
             }

@@ -77,6 +77,18 @@ class Buscador : AppCompatActivity() {
             val intent = Intent(this, Perfil::class.java)
             startActivity(intent)
         }
+
+        val btninicial = findViewById<ImageView>(R.id.imageView50)
+        btninicial.setOnClickListener {
+            val intent = Intent(this, Info_livro::class.java)
+            startActivity(intent)
+        }
+
+        val btninicial2 = findViewById<ImageView>(R.id.imageView5)
+        btninicial2.setOnClickListener {
+            val intent = Intent(this, Info_livro::class.java)
+            startActivity(intent)
+        }
     }
 
 }
