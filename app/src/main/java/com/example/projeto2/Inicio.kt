@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.card.MaterialCardView
 
 class Inicio : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,14 +52,14 @@ class Inicio : AppCompatActivity() {
                 startActivity(intent)
             }
 
-            val btninicial = findViewById<ImageView>(R.id.imageView50)
-            btnPerfil.setOnClickListener {
+            val btninicial = findViewById<MaterialCardView>(R.id.cardViewinfo)
+            btninicial.setOnClickListener {
                 val intent = Intent(this, Info_livro::class.java)
                 startActivity(intent)
             }
 
             val btninicial2 = findViewById<ImageView>(R.id.imageView5)
-            btnPerfil.setOnClickListener {
+            btninicial2.setOnClickListener {
                 val intent = Intent(this, Info_livro::class.java)
                 startActivity(intent)
             }

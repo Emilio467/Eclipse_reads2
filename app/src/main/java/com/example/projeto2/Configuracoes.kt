@@ -20,7 +20,7 @@ class Configuracoes : AppCompatActivity() {
             insets
         }
 
-        val btnInicio = findViewById<ImageView>(R.id.buscar)
+        val btnInicio = findViewById<ImageView>(R.id.Buscar)
         btnInicio.setOnClickListener {
             val intent = Intent(this, Inicio::class.java)
             startActivity(intent)

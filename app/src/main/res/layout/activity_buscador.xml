@@ -11,7 +11,7 @@
     <ScrollView
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -283,20 +283,20 @@
 
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="409dp"
+        android:id="@+id/materialCardView"
+        android:layout_width="0dp"
         android:layout_height="100dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="800dp"
+        android:gravity="center|bottom"
         android:padding="20dp"
         app:cardBackgroundColor="#6A3D89"
-        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"
-            android:layout_width="412dp"
-            android:layout_height="110dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="#00FFFFFF">
 
             <LinearLayout
@@ -373,6 +373,5 @@
             </LinearLayout>
         </com.google.android.material.bottomnavigation.BottomNavigationView>
     </com.google.android.material.card.MaterialCardView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
