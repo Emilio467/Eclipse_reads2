@@ -69,68 +69,24 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <EditText
-                android:id="@+id/editTextTextEmailAddress5"
-                android:layout_width="299dp"
-                android:layout_height="42dp"
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/form_placeholder"
+                android:layout_width="300dp"
+                android:layout_height="339dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="40dp"
-                android:background="#29121212"
-                android:ems="10"
-                android:inputType="textEmailAddress"
-                android:text="Email:"
-                android:textColor="#6B101010" />
+                android:layout_marginTop="30dp"
 
-            <EditText
-                android:id="@+id/editTextTextEmailAddress6"
-                android:layout_width="299dp"
-                android:layout_height="42dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:background="#29121212"
-                android:ems="10"
-                android:inputType="textEmailAddress"
-                android:text="Senha:"
-                android:textColor="#6B101010" />
+                >
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:orientation="horizontal">
 
-                <CheckBox
-                    android:id="@+id/checkBox"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="17dp"
-                    android:text="Lembre de mim " />
-
-                <Button
-                    android:id="@+id/button37"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
-
-                    android:background="#00FFFFFF"
-                    android:text="Esqueci a senha"
-                    android:textColor="#7803FD" />
-            </LinearLayout>
-
-            <Button
-                android:id="@+id/button38"
-                android:layout_width="325dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="10dp"
-                android:text="Entrar" />
+            </androidx.fragment.app.FragmentContainerView>
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="314dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="20dp"
                 android:text="Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade." />
 
         </LinearLayout>

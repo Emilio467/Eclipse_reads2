@@ -21,11 +21,32 @@ class log0regis : AppCompatActivity() {
 
 
         }
-        val btnPerfil = findViewById<Button>(R.id.button38)
-        btnPerfil.setOnClickListener {
-            val intent = Intent(this, Inicio::class.java)
-            startActivity(intent)
+        val button3 = findViewById<Button>(R.id.button3)
+        val button9 = findViewById<Button>(R.id.button9)
+
+
+
+
+
+
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.form_placeholder, Formulario_login())
+                .commit()
         }
+
+        button3.setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.form_placeholder, Formulario_login())
+                .commit()
+        }
+
+        button9.setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.form_placeholder, Formulario_registro())
+                .commit()
+        }
+// ...
 
 
     }
