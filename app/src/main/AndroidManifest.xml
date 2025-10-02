@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projeto2">
         <activity
+            android:name=".Quarta_capa"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment_biblio2"
+            android:exported="false" />
+        <activity
             android:name=".Formulario_registro"
             android:exported="false"
             android:theme="@style/Theme.Projeto2" />

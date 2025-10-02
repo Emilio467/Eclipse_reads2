@@ -1,4 +1,5 @@
 package com.example.projeto2
+//package com.example.projeto2.Fragment_biblio
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -8,7 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 import android.content.Intent
 import android.widget.ImageView
 
-class Minhabiblio : AppCompatActivity() {
+class Minhabiblio : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

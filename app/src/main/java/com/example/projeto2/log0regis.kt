@@ -1,13 +1,12 @@
 package com.example.projeto2
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import android.content.Intent
-import android.widget.Button
-import android.widget.ImageView
+import androidx.fragment.app.Fragment
 
 class log0regis : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,33 +20,34 @@ class log0regis : AppCompatActivity() {
 
 
         }
-        val button3 = findViewById<Button>(R.id.button3)
-        val button9 = findViewById<Button>(R.id.button9)
-
-
-
-
-
-
         if (savedInstanceState == null) {
+            val formularioLoginFragment = Formulario_login()
             supportFragmentManager.beginTransaction()
-                .replace(R.id.form_placeholder, Formulario_login())
+                .replace(R.id.form_placeholder, formularioLoginFragment)
                 .commit()
         }
 
-        button3.setOnClickListener {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.form_placeholder, Formulario_login())
-                .commit()
+        val botaoParaRegistro = findViewById<Button>(R.id.button9)
+        botaoParaRegistro.setOnClickListener {
+            trocarFragment(Formulario_registro())
         }
 
-        button9.setOnClickListener {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.form_placeholder, Formulario_registro())
-                .commit()
+        val botaoParaLogin = findViewById<Button>(R.id.button3)
+        botaoParaLogin.setOnClickListener {
+            trocarFragment(Formulario_login())
         }
-// ...
+
+    }
+
+
+    private fun trocarFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.form_placeholder, fragment)
+            .addToBackStack(null)
+            .commit()
+    }
+
+
 
 
     }
-}

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6A3D89"
+
     tools:context=".Buscador">
 
     <ScrollView
@@ -105,7 +105,7 @@
                         android:layout_width="100dp"
                         android:layout_height="255dp"
                         android:layout_marginLeft="10dp"
-                        android:background="@drawable/border_rouded"
+                        android:background="#2CFFFFFF"
                         android:orientation="vertical">
 
                         <ImageView
@@ -194,7 +194,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="255dp"
                         android:layout_marginLeft="10dp"
-                        android:background="@drawable/border_rouded"
+                        android:background="#2CFFFFFF"
                         android:orientation="vertical">
 
                         <ImageView

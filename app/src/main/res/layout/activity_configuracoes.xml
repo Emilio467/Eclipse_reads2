@@ -8,7 +8,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6A3D89"
+
     tools:context=".Configuracoes">
 
     <ScrollView
@@ -205,7 +205,7 @@
                             android:layout_width="50dp"
                             android:layout_height="wrap_content"
 
-                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_12___s__09_02_09_10b76ef3" />
+                            app:srcCompat="@drawable/aprovar" />
 
                         <TextView
                             android:id="@+id/textView16"
@@ -213,7 +213,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:paddingTop="7dp"
-                            android:text="Tema da Interface "
+                            android:text="Configurações da Interface "
                             android:textColor="#FFFDFD"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -227,26 +227,6 @@
                             android:layout_width="216dp"
                             android:layout_height="220dp"
                             android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/textView45"
-                                android:layout_width="match_parent"
-                                android:layout_height="33dp"
-                                android:layout_marginTop="10dp"
-                                android:paddingLeft="10dp"
-                                android:paddingTop="10dp"
-                                android:text="Sons da Interface"
-                                android:textColor="#FAF8F8"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:id="@+id/textView91"
-                                android:layout_width="match_parent"
-                                android:layout_height="32dp"
-                                android:paddingLeft="10dp"
-                                android:text="Reproduzir sons ao navegar  "
-                                android:textColor="#FDFBFB"
-                                android:textSize="14sp" />
 
                             <TextView
                                 android:id="@+id/textView69"
@@ -277,17 +257,10 @@
                                 android:id="@+id/switch3"
                                 android:layout_width="121dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="25dp"
+                                android:layout_marginTop="10dp"
                                 android:textOff="Desativado"
                                 android:textOn="ativo" />
 
-                            <Switch
-                                android:id="@+id/switch2"
-                                android:layout_width="121dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="30dp"
-                                android:textOff="Desativado"
-                                android:textOn="Ativo" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -447,17 +420,6 @@
                             android:orientation="vertical">
 
                             <TextView
-                                android:id="@+id/textView44"
-                                android:layout_width="match_parent"
-                                android:layout_height="33dp"
-                                android:layout_marginTop="10dp"
-                                android:paddingLeft="10dp"
-                                android:paddingTop="10dp"
-                                android:text="Tipo da Conta"
-                                android:textColor="#FAF8F8"
-                                android:textSize="16sp" />
-
-                            <TextView
                                 android:id="@+id/textView92"
                                 android:layout_width="match_parent"
                                 android:layout_height="32dp"
@@ -483,13 +445,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="vertical">
-
-                            <Button
-                                android:id="@+id/button39"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:backgroundTint="#1BFFFFFF"
-                                android:text="Convidado" />
 
                             <TextView
                                 android:id="@+id/textView68"

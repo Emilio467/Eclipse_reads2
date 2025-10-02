@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 import android.content.Intent
 import android.widget.ImageView
 
-class Buscador : AppCompatActivity() {
+class Buscador : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

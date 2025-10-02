@@ -8,10 +8,11 @@
     tools:context=".Minhabiblio">
 
     <ScrollView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="#6A3D89"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="409dp"
+        android:layout_height="783dp"
+
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -43,50 +44,141 @@
                         android:textColor="#FFFFFF"
                         android:textSize="24sp" />
 
-                    <TextView
-                        android:id="@+id/textView53"
-                        android:layout_width="wrap_content"
-                        android:layout_height="44dp"
-                        android:layout_marginLeft="20dp"
-                        android:text="0 livros na sua coleção"
-                        android:textColor="#9CFFFFFF"
-                        android:textSize="20sp" />
                 </LinearLayout>
 
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imageView14"
-                android:layout_width="match_parent"
-                android:layout_height="111dp"
-                android:layout_marginTop="50dp"
-                app:srcCompat="@drawable/captura_de_tela_2025_09_09_132931" />
 
-            <TextView
-                android:id="@+id/textView54"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sua biblioteca está vazia"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp" />
+            <ScrollView
+                android:layout_width="409dp"
+                android:layout_height="889dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/textView55"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Explore livros e adicione à sua coleção para começar"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-            <Button
-                android:gravity="center"
-                android:id="@+id/button6"
-                android:layout_width="120dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="146dp"
-                android:text="Explorar livros" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="82dp"
+                            android:layout_height="wrap_content"
+
+                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_98c853bd" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingTop="7dp"
+                            android:text="Favoritos"
+                            android:textColor="#FBFBFB"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Linearlayout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="222dp"
+                        android:orientation="horizontal">
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView16"
+                            android:layout_width="87dp"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_d8f8c720" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingTop="7dp"
+                            android:text="Vou Ler"
+                            android:textColor="#FDFBFB"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="222dp"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView17"
+                            android:layout_width="87dp"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_ac789f1f" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:paddingTop="7dp"
+                            android:text="Lendo"
+                            android:textColor="#FDFBFB"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="222dp"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:orientation="horizontal"
+                        android:paddingTop="7dp">
+
+                        <ImageView
+                            android:id="@+id/imageView19"
+                            android:layout_width="87dp"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_89e0da49" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="Lidos"
+                            android:textColor="#FBFAFA"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+
         </LinearLayout>
+
+
     </ScrollView>
 
     <com.google.android.material.card.MaterialCardView

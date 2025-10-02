@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/Email00"
             android:layout_width="match_parent"
             android:layout_height="49dp"
             android:background="#0C050505"
@@ -30,7 +30,7 @@
             android:textColor="#050505" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/senha00"
             android:layout_width="match_parent"
             android:layout_height="49dp"
             android:layout_marginTop="30dp"

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6A3D89"
+
     tools:context=".Tela_do_Usuario">
 
     <ScrollView
@@ -21,19 +21,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="match_parent"
-                android:layout_height="167dp"
-                android:src="@drawable/_326651_tropical_praia_sundown_horizonte_paisagem_vetor" />
-
-            <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="match_parent"
-                android:layout_height="87dp"
-                android:layout_marginTop="-45dp"
-                android:src="@drawable/usuario" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -52,23 +39,6 @@
                 android:textAlignment="center"
                 android:textColor="#84FFFCFC"
                 android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/button24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="145dp"
-                android:backgroundTint="#504E4E"
-                android:text="Convidado" />
-
-            <Button
-                android:id="@+id/button26"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="145dp"
-                android:layout_marginTop="20dp"
-                android:backgroundTint="#15FFFFFF"
-                android:text="Editar perfil" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -327,73 +297,6 @@
                 </com.google.android.material.card.MaterialCardView>
 
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="82dp"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageView27"
-                    android:layout_width="76dp"
-                    android:layout_height="60dp"
-
-                    android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_ac789f1f" />
-
-                <TextView
-                    android:id="@+id/textView58"
-                    android:layout_width="276dp"
-                    android:layout_height="43dp"
-                    android:layout_marginTop="15dp"
-                    android:text="Adicionadas Recentemente"
-                    android:textAlignment="textStart"
-                    android:textColor="#FBFBFB"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="354dp"
-                android:layout_height="301dp"
-                android:layout_marginLeft="25dp"
-                android:backgroundTint="#00FFFFFF">
-
-                <LinearLayout
-                    android:layout_width="360dp"
-                    android:layout_height="300dp"
-                    android:background="#29FFFEFE"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/imageView28"
-                        android:layout_width="match_parent"
-                        android:layout_height="89dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_d8f8c720" />
-
-                    <TextView
-                        android:id="@+id/textView59"
-                        android:layout_width="match_parent"
-                        android:layout_height="44dp"
-                        android:text="Biblioteca vazia"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="24sp" />
-
-                    <TextView
-                        android:id="@+id/textView60"
-                        android:layout_width="match_parent"
-                        android:layout_height="83dp"
-                        android:text="Comece explorando e adicionando livros à sua biblioteca"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
-
-                </LinearLayout>
-
-            </com.google.android.material.card.MaterialCardView>
 
 
             <Button
