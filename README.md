@@ -35,7 +35,7 @@ Como executar
 2. Vá em no menu
 3. Vá em git
 4. Vá em clone
-5. coloque essa URL: https://github.com/Emilio467/Eclipse_reads_codelabs.git
+5. coloque essa URL: https://github.com/Emilio467/Eclipse_reads2.git
 6. Dê ender
 7. Agora o projeto vai estar pronto para ser executado.
 8. No canto superior, vai ter run app, blugue seu celular e execute.
