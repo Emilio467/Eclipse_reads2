@@ -9,7 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -18,6 +17,7 @@ class Configuracoes : BaseActivity() {
     private lateinit var sharedPreferences: SharedPreferences
     private val PREFS_NAME = "AppThemePrefs"
     private val KEY_BACKGROUND_COLOR = "backgroundColor"
+
     private lateinit var buttonTemaRoxo: Button
     private lateinit var buttonTemaAzul: Button
     private lateinit var textViewStatusTema: TextView
@@ -27,6 +27,7 @@ class Configuracoes : BaseActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_configuracoes)
 
+        // Salva as preferências
         sharedPreferences = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -35,46 +36,37 @@ class Configuracoes : BaseActivity() {
             insets
         }
 
-        val btnInicio = findViewById<ImageView>(R.id.Buscar)
-        btnInicio.setOnClickListener {
-            val intent = Intent(this, Inicio::class.java)
-            startActivity(intent)
+        // Menu
+        findViewById<ImageView>(R.id.Buscar).setOnClickListener {
+            startActivity(Intent(this, Inicio::class.java))
+        }
+        findViewById<ImageView>(R.id.buscar0).setOnClickListener {
+            startActivity(Intent(this, Buscador::class.java))
+        }
+        findViewById<ImageView>(R.id.buscar00).setOnClickListener {
+            startActivity(Intent(this, Minhabiblio::class.java))
+        }
+        findViewById<ImageView>(R.id.buscar0000).setOnClickListener {
+            startActivity(Intent(this, Perfil::class.java))
         }
 
-        val btnBuscar = findViewById<ImageView>(R.id.buscar0)
-        btnBuscar.setOnClickListener {
-            val intent = Intent(this, Buscador::class.java)
-            startActivity(intent)
-        }
-
-        val btnBiblioteca = findViewById<ImageView>(R.id.buscar00)
-        btnBiblioteca.setOnClickListener {
-            val intent = Intent(this, Minhabiblio::class.java)
-            startActivity(intent)
-        }
-
-        val btnConfig = findViewById<ImageView>(R.id.buscar000)
-        btnConfig.setOnClickListener {
-        }
-
-        val btnPerfil = findViewById<ImageView>(R.id.buscar0000)
-        btnPerfil.setOnClickListener {
-            val intent = Intent(this, Perfil::class.java)
-            startActivity(intent)
-        }
-
+        // Botões do tema
         buttonTemaRoxo = findViewById(R.id.button30)
         buttonTemaAzul = findViewById(R.id.button32)
         textViewStatusTema = findViewById(R.id.textView999)
 
+        // Atualiza o tema inicial
         updateButtonStates()
         updateTextViewThemeStatus()
+
+        // tema roxo
         buttonTemaRoxo.setOnClickListener {
             saveBackgroundColor("#6A3D89")
             Toast.makeText(this, "Tema Roxo aplicado!", Toast.LENGTH_SHORT).show()
             textViewStatusTema.text = "Claro"
         }
 
+        // Botão tema azul
         buttonTemaAzul.setOnClickListener {
             saveBackgroundColor("#10114B")
             Toast.makeText(this, "Tema Azul Escuro aplicado!", Toast.LENGTH_SHORT).show()
@@ -82,6 +74,7 @@ class Configuracoes : BaseActivity() {
         }
     }
 
+    // Salva o tema
     private fun saveBackgroundColor(colorHex: String) {
         val editor = sharedPreferences.edit()
         editor.putString(KEY_BACKGROUND_COLOR, colorHex)
@@ -90,6 +83,7 @@ class Configuracoes : BaseActivity() {
         updateTextViewThemeStatus()
     }
 
+    // Atualiza os textos dos botões
     private fun updateButtonStates() {
         val currentColor = sharedPreferences.getString(KEY_BACKGROUND_COLOR, "#6A3D89")
 
@@ -105,6 +99,7 @@ class Configuracoes : BaseActivity() {
         }
     }
 
+    // Mostra qual temma é
     private fun updateTextViewThemeStatus() {
         val currentColor = sharedPreferences.getString(KEY_BACKGROUND_COLOR, "#6A3D89")
 

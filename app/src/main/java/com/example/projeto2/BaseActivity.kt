@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
+// aplica a cor de fundo em todas as telas
 abstract class BaseActivity : AppCompatActivity() {
 
     private lateinit var sharedPreferences: SharedPreferences
@@ -17,8 +18,8 @@ abstract class BaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         sharedPreferences = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-
     }
+
     override fun setContentView(layoutResID: Int) {
         super.setContentView(layoutResID)
         applyAppBackgroundColor()
@@ -34,13 +35,16 @@ abstract class BaseActivity : AppCompatActivity() {
         applyAppBackgroundColor()
     }
 
+    // define a cor de fundo salva
     protected fun applyAppBackgroundColor() {
         val rootView = window.decorView.findViewById<View>(android.R.id.content)
         if (rootView != null) {
             val savedColorHex = sharedPreferences.getString(KEY_BACKGROUND_COLOR, DEFAULT_BACKGROUND_COLOR)
             try {
+                // Aplica a cor salva
                 rootView.setBackgroundColor(Color.parseColor(savedColorHex))
             } catch (e: IllegalArgumentException) {
+                // Se a cor da erro, aplica a defaut
                 rootView.setBackgroundColor(Color.parseColor(DEFAULT_BACKGROUND_COLOR))
                 e.printStackTrace()
             }
