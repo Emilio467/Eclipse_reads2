@@ -205,7 +205,7 @@
                             android:layout_width="50dp"
                             android:layout_height="wrap_content"
 
-                            app:srcCompat="@drawable/aprovar" />
+                            app:srcCompat="@drawable/check" />
 
                         <TextView
                             android:id="@+id/textView16"
@@ -296,7 +296,7 @@
                             android:layout_width="59dp"
                             android:layout_height="wrap_content"
 
-                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_12___s__09_02_08_08ec2d61" />
+                            app:srcCompat="@drawable/phone" />
 
                         <TextView
                             android:id="@+id/textView64"
@@ -348,7 +348,7 @@
                                     android:layout_width="54dp"
                                     android:layout_height="wrap_content"
 
-                                    app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_13___s__09_49_07_8f848969" />
+                                    app:srcCompat="@drawable/sicroniza__o_backanp" />
 
                                 <TextView
                                     android:id="@+id/textView66"

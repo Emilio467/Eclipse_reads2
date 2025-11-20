@@ -68,7 +68,7 @@
                             android:layout_width="49dp"
                             android:layout_height="41dp"
 
-                            app:srcCompat="@drawable/imagem_do_whatsapp_de_2025_09_02___s__10_42_29_ac789f1f" />
+                            app:srcCompat="@drawable/relogio" />
 
                         <TextView
                             android:id="@+id/textView90"
